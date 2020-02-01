@@ -1,0 +1,85 @@
+$breakpoints: (
+    "": 99999px,
+    "m": 1200px,
+    "s": 900px,
+    "xs": 600px
+);
+
+$block-widths: (
+    "6xs": 25,
+    "5xs": 100,
+    "4xs": 150,
+    "3xs": 280,
+    "2xs": 450,
+    "xs": 700,
+    "s": 900,
+    "m": 1200
+);
+
+$spacings: (
+    "none": 0,
+    "2xs": 5,
+    "xs": 10,
+    "s": 20,
+    "m": 40,
+    "l": 60,
+    "xl": 100,
+    "2xl": 150
+);
+
+$gutters: (
+    "l": 15,
+    "m": 20,
+    "s": 10,
+    "xs": 5
+);
+
+$colors: (
+    "candy": #ef476f,
+    "candy-light": #ff6b8e,
+    "candy-glow": #f00d76,
+    "candy-dark": #c4213c,
+
+    "gum": #22c1f6,
+    "gum-light": #31def9,
+    "gum-glow": #1e9eff,
+    "gum-dark": #008fe2,
+
+    "basil": #1befb8,
+    "basil-light": #6ef3dd,
+    "basil-glow": #00e9f9,
+    "basil-dark": #19b682,
+
+    "mango": #ffc849,
+    "mango-light": #fcda6d,
+    "mango-glow": #ffc849,
+    "mango-dark": #ff893a,
+
+    "liquorice": #252525,
+
+    "flour": #e9e9e9,
+    "flour-light": #f2f2f2,
+    "sugar": #ffffff
+);
+
+$fonts: (
+    "ft": (
+        "name": "'Raleway', sans-serif",
+        "sizes": (
+            "2xs": "10px/1.5",
+            "xs": "13px/1.4",
+            "s": "14px/1.2",
+            "m": "16px/1.5",
+            "l": "18px/1.45",
+            "xl": "20px/1.4",
+            "2xl": "36px/1.2"
+        )
+    )
+);
+
+$fonts-xs: (
+    "ft": (
+        "name": "'Raleway', sans-serif",
+        "sizes": ()
+    )
+);

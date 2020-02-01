@@ -1,0 +1,28 @@
+  
+@mixin absolute-fill() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@mixin box-shadow() {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+@mixin box-shadow-l() {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05);
+}
+
+@mixin breakpoint-m {
+  @media (max-width: #{map-get($breakpoints, "m")}) { @content; }
+}
+
+@mixin breakpoint-s {
+  @media (max-width: #{map-get($breakpoints, "s")}) { @content; }
+}
+
+@mixin breakpoint-xs {
+  @media (max-width: #{map-get($breakpoints, "xs")}) { @content; }
+}
